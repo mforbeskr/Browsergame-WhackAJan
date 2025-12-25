@@ -11,7 +11,7 @@ let timeLeft = 40;
 let moleTimer;
 let countdownTimer;
 
-let highScore = localStorage.getItem("whackJanHighScore2025") || 0;
+let highScore = localStorage.getItem("whackAJanHighScore") || 0;
 highScoreDisplay.textContent = `High Score: ${highScore}`;
 
 function createGrid() {
@@ -86,7 +86,7 @@ function countDown() {
 
       if (score > highScore) {
         highScore = score;
-        localStorage.setItem("whackJanHighScore2025", highScore);
+        localStorage.setItem("whackAJanHighScore", highScore);
         highScoreDisplay.textContent = `High Score: ${highScore}`;
       }
     }, 50);
