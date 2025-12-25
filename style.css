@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url("https://i.ibb.co/dsxtfjSZ/whackajanogleif.png");
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
+  background-color: #0e0411;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+#howTo {
+  font-size: 1.4rem;
+}
+
+#score,
+#high-score,
+#timer {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 9px;
+  color: #222;
+}
+
+#high-score {
+  margin-top: 310px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-gap: 25px;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.hole {
+  width: 150px;
+  height: 150px;
+  background: #014984;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.mole {
+  width: 150px;
+  height: 150px;
+  background: url("https://i.ibb.co/jZw95y8p/g5-WU5-Ydi-400x400-removebg-preview.png")
+    no-repeat center/cover;
+  background-size: 110px;
+  overflow: hidden;
+  border: none;
+  top: 15px;
+  left: 15px;
+  border-radius: 80px;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+.mole:hover {
+  transform: scale(1.15);
+}
+
+button {
+  padding: 15px 35px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #ff9233;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background: #420051;
+}
+button:active {
+  transform: translateY(4px);
+  background: #404040;
+}

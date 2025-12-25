@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Third Project: Whack-A-Jan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header aria-label="Whack-a-Jan game"></header>
+
+    <main>
+      <div id="high-score">High Score: 0</div>
+      <div id="timer">Time: 40</div>
+      <div id="score">Score: 0</div>
+      <label for="difficulty">Difficulty:</label>
+      <select id="difficulty" aria-label="difficulty">
+        <option value="1250">Easy</option>
+        <option value="850" selected>Normal</option>
+        <option value="550">Hard</option>
+      </select>
+
+      <div class="grid"></div>
+
+      <button id="playBtn" aria-label="Play Button">Play</button>
+      <button id="resetBtn" aria-label="Reset Button">Reset</button>
+
+      <script src="script.js" defer></script>
+    </main>
+  </body>
+</html>
