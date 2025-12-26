@@ -8,25 +8,28 @@
   </head>
 
   <body>
-    <div class="background"></div>
-    <header aria-label="Whack-a-Jan game"></header>
-
-    <main>
-      <div id="high-score">High Score: 0</div>
-      <div id="timer">Time: 40</div>
-      <div id="score">Score: 0</div>
-      <label for="difficulty">Difficulty:</label>
-      <select id="difficulty" aria-label="difficulty">
-        <option value="1250">Easy</option>
-        <option value="850" selected>Normal</option>
-        <option value="550">Hard</option>
-      </select>
-
-      <div class="grid"></div>
-
+    <header aria-label="Whack-a-Jan game">
+      <img id="headerimg" src="https://i.ibb.co/x8Lrm4zz/whackajan-1920x1080.png">
+    </header>
       <button id="playBtn" aria-label="Play Button">Play</button>
-      <button id="resetBtn" aria-label="Reset Button">Reset</button>
-
+      
+      
+      
+      <main>
+        
+        <div class="grid"></div>
+        
+        <div id="high-score">High Score: 0</div>
+        <div id="timer">Time: 40</div>
+        <div id="score">Score: 0</div>
+        <label for="difficulty">Difficulty:</label>
+        <select id="difficulty" aria-label="difficulty">
+          <option value="1250">Easy</option>
+          <option value="850" selected>Normal</option>
+          <option value="550">Hard</option>
+        </select>
+      <br><button id="resetBtn" aria-label="Reset Button">Reset</button>
+      
       <script src="script.js" defer></script>
     </main>
   </body>

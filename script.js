@@ -32,7 +32,7 @@ function startGame() {
   clearInterval(moleTimer);
   clearInterval(countdownTimer);
 
-  const speed = Number(difficultySelect.value); // 1050 / 850 / 550
+  const speed = Number(difficultySelect.value); // 1250 / 850 / 550
   moleTimer = setInterval(randomMole, speed);
 
   countdownTimer = setInterval(countDown, 1000);
@@ -82,7 +82,7 @@ function countDown() {
     playButton.disabled = false;
 
     setTimeout(() => {
-      alert(`Times up! You've Whacked: ${score} Jans. Do better!`);
+      alert(`Times up! You've Whacked: ${score} Jans. Nice!`);
 
       if (score > highScore) {
         highScore = score;
