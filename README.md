@@ -50,7 +50,7 @@ If the game were to be improved further, the following features could be added:
 ### 🔥 Hard Mode Enhancements
 - **Random Images:** Display different random images in hard mode to make the game more challenging and unpredictable.
 - **Correct Target Scoring:** Only award points when clicking the correct image. Clicking the wrong image could give no points or deduct points.
-- **Increased Gap Between Holes:** Increase the spacing between holes in hard mode so players need to move the cursor further, adding difficulty.
+- **Increased Gap Between Holes:** Increase the spacing between holes in hard mode so players need to move the cursor/hand/finger further, adding difficulty.
 - **Countdown Before Start:** Add a short countdown (for example, 3-2-1) after pressing **Play** so the player has time to prepare before the game begins.
 
 These improvements would make the game more engaging, challenging, and user-friendly.
@@ -60,4 +60,3 @@ These improvements would make the game more engaging, challenging, and user-frie
 ## 📜 License
 
 This project is for educational purposes.  
-Add a license here if needed.
